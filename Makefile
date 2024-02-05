@@ -7,8 +7,9 @@ CFLAGS = -Wall -Werror -Wextra
 RM = rm -rf
 
 ###### Files #####
+SRCS_PATH = ./sources
 #SRCS = Variable that store the sources.
-SRCS = 	ft_atoi.c \
+SRCS = 	$(addprefix $(SRCS_PATH)/, ft_atoi.c \
 		ft_bzero.c \
 		ft_isalnum.c \
 		ft_isalpha.c \
@@ -41,7 +42,7 @@ SRCS = 	ft_atoi.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
-		ft_split.c
+		ft_split.c)
 
 BONUSSRC = 	ft_lstnew.c \
 			ft_lstadd_front.c \
