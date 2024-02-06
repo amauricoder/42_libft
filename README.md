@@ -11,6 +11,7 @@
 - [First Part](#first-part)
 - [Second Part](#second-part)
 - [Bonus](#bonus)
+- [Makefile Overview](#makefile-overview)
 - [License and glorious advice](#license-and-glorious-advice)
 
 ## Introduction
@@ -45,6 +46,22 @@ The subsequent phase focuses on the development of a set of functions, either ab
 ## Bonus
 
 For the bonus segment of the project, you will construct functions capable of manipulating lists. For a more detailed understanding of the functions in the bonus part, please consult the [Subject](subject/subject.pdf).
+
+## Makefile Overview
+
+In this project, the Makefile offers the following essential rules:
+
+- **make**: Compiles the primary and secondary functions into `libft.a`.
+
+- **make clean**: Cleans the directory by removing `.o` files, preserving `libft.a`.
+
+- **make fclean**: Completely cleans the directory by deleting both `.o` files and `libft.a`.
+
+- **make re**: Refreshes `libft.a` by recompiling everything.
+
+Additionally:
+
+- **make bonus**: Incorporates bonus functions into `libft.a`.
 
 ## License and glorious advice
 [View License](LICENSE)
