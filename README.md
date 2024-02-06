@@ -20,12 +20,19 @@ Libft is the initial project in the common core curriculum at 42 school. The obj
 ## Usage
 
 To use the library in your project, follow these steps:
-
+1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/42_libft.git
+```
+2. Do make to compile the files
+```bash
 make
 ```
 This will generate the libft.a file in the root folder, that is library containing all the functions.
+3. Go to your header file and include the library
+```bash
+# include "libft.h"
+```
 
 ## First Part
 
