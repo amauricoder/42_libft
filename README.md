@@ -17,7 +17,7 @@
 ## Introduction
 
 Libft is the initial project in the common core curriculum at 42 school. The objective of this project is to build your own library of functions that will later be utilized in almost all upcoming projects at 42. Over time, you can enhance this library with additional functions constructed during other projects, such as get_next_line and ft_printf. However, in this repository, you will only find the first version of Libft, containing the functions required by the project's specifications.
-
+>The code was written according to the 42 norm (norminette) guidelines.
 ## Usage
 
 To use the library in your project, follow these steps:
