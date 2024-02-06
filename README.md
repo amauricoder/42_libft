@@ -30,8 +30,9 @@ git clone https://github.com/yourusername/42_libft.git
 make
 ```
 This will generate the libft.a file in the root folder, that is library containing all the functions.
+
 3. Go to your header file and include the library
-```bash
+```C
 # include "libft.h"
 ```
 
