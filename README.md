@@ -38,15 +38,15 @@ This will generate the libft.a file in the root folder, that is library containi
 
 ## First Part
 
-In this initial phase of the project, you are tasked with re-implementing specific functions from the Libc Library. For a detailed list of functions included in this section, please refer to the [Subject](subject/subject.pdf).
+In this initial phase of the project, you are tasked with re-implementing specific functions from the Libc Library. For a detailed list of functions included in this section, please refer to the [Subject](subject/1-libft.pdf).
 
 ## Second Part
 
-The subsequent phase focuses on the development of a set of functions, either absent in the libc or presented in a different form. To explore the comprehensive list of functions in this section, check the [Subject](subject/subject.pdf).
+The subsequent phase focuses on the development of a set of functions, either absent in the libc or presented in a different form. To explore the comprehensive list of functions in this section, check the [Subject](subject/1-libft.pdf).
 
 ## Bonus
 
-For the bonus segment of the project, you will construct functions capable of manipulating lists. For a more detailed understanding of the functions in the bonus part, please consult the [Subject](subject/subject.pdf).
+For the bonus segment of the project, you will construct functions capable of manipulating lists. For a more detailed understanding of the functions in the bonus part, please consult the [Subject](subject/1-libft.pdf).
 
 ## Makefile Overview
 
