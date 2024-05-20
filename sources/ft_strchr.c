@@ -3,15 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aconceic <aconceic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aconceic <aconceic@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 11:15:59 by aconceic          #+#    #+#             */
-/*   Updated: 2023/10/19 22:10:36 by aconceic         ###   ########.fr       */
+/*   Updated: 2024/05/20 21:50:13 by aconceic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief ft_strchr searches for the first occurrence of character c in the string s,
+ * returning a pointer to the character or NULL if not found.
+ * @return char* A pointer to the character or NULL if not found.
+*/
 char	*ft_strchr(const char *s, int c)
 {
 	size_t	i;
@@ -29,9 +34,7 @@ char	*ft_strchr(const char *s, int c)
 }
 
 /* 
-//function description
-//ft_strchr searches for the first occurrence of character c in the string s, 
-//returning a pointer to the character or NULL if not found.
+
 #include <stdio.h>
 
 int main(void)

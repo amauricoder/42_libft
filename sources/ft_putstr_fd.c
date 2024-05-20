@@ -3,15 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aconceic <aconceic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aconceic <aconceic@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 16:23:01 by aconceic          #+#    #+#             */
-/*   Updated: 2023/10/22 18:46:36 by aconceic         ###   ########.fr       */
+/*   Updated: 2024/05/20 21:46:30 by aconceic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Outputs the string s to the file descriptor fd.
+ */
 void	ft_putstr_fd(char *s, int fd)
 {
 	unsigned int	i;

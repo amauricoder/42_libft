@@ -3,15 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aconceic <aconceic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aconceic <aconceic@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/15 16:00:49 by aconceic          #+#    #+#             */
-/*   Updated: 2023/10/19 22:02:18 by aconceic         ###   ########.fr       */
+/*   Updated: 2024/05/20 21:44:53 by aconceic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Outputs a single character to a specified file descriptor.
+ * @param c The character to output.
+ * @param fd The file descriptor to output to.
+ */
 void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);

@@ -3,15 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aconceic <aconceic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aconceic <aconceic@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 10:50:16 by aconceic          #+#    #+#             */
-/*   Updated: 2023/10/20 18:51:09 by aconceic         ###   ########.fr       */
+/*   Updated: 2024/05/20 22:01:08 by aconceic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Allocates (with malloc(3)) and returns a copy of ’s1’ with the characters 
+ * specified in ’set’ removed from the beginning and the end of the string.
+ * @return The trimmed string. NULL if the allocation fails.
+*/
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	int		start;
@@ -37,9 +42,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (ft_substr(s1, start, res_size));
 }
 /* 
-//Function description
-//removes leading and trailing characters in set from the string s1, 
-//returning a new string. It handles null pointers and empty results.
 #include <stdio.h>
 
 int	main(void)

@@ -3,15 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aconceic <aconceic@student.42.fr>          +#+  +:+       +#+        */
+/*   By: aconceic <aconceic@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 11:13:43 by aconceic          #+#    #+#             */
-/*   Updated: 2023/10/20 18:53:20 by aconceic         ###   ########.fr       */
+/*   Updated: 2024/05/20 21:48:49 by aconceic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/**
+ * @brief Allocates and returns an array of strings obtained by splitting s using
+ * the character c as a delimiter. The array must be ended by a NULL pointer.
+ * @return The array of new strings resulting from the split.
+ */
 static int	words_counter(const char *str, char c)
 {
 	int	word_counter;
@@ -28,6 +33,11 @@ static int	words_counter(const char *str, char c)
 	return (word_counter);
 }
 
+/**
+ * @brief Allocates and returns a substring from the string s. The substring
+ * begins at index start and is of maximum size len.
+ * @return The substring. NULL if the allocation fails.
+ */
 static int	letters_counter(char const *s, char c)
 {
 	int	i;
@@ -38,6 +48,11 @@ static int	letters_counter(char const *s, char c)
 	return (i);
 }
 
+/**
+ * @brief Allocates and returns a substring from the string s. The substring
+ * begins at index start and is of maximum size len.
+ * @return The substring. NULL if the allocation fails.
+ */
 static char	**ft_free(char **str, int i)
 {
 	while (i >= 0)
@@ -49,6 +64,11 @@ static char	**ft_free(char **str, int i)
 	return (NULL);
 }
 
+/**
+ * @brief Allocates and returns an array of strings obtained by splitting s using
+ * the character c as a delimiter. The array must be ended by a NULL pointer.
+ * @return The array of new strings resulting from the split.
+ */
 char	**ft_split(char const *s, char c)
 {
 	char	**str;
