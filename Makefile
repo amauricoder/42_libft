@@ -42,7 +42,17 @@ SRCS = 	$(addprefix $(SRCS_PATH)/, ft_atoi.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
 		ft_putnbr_fd.c \
-		ft_split.c)
+		ft_split.c \
+		ft_free_matriz.c \
+		ft_print_matriz.c \
+		ft_matrizlen.c \
+		ft_matrizdup.c \
+		ft_strndup.c \
+		ft_strlenchr.c \
+		ft_is_quote_closed.c \
+		ft_strjoin3.c \
+		ft_get_time.c \
+		ft_usleep.c)
 
 BONUSSRC = 	ft_lstnew.c \
 			ft_lstadd_front.c \
