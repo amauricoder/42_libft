@@ -12,7 +12,7 @@
 - [Second Part](#second-part)
 - [Bonus](#bonus)
 - [Makefile Overview](#makefile-overview)
-- [License and glorious advice](#license-and-glorious-advice)
+- [License](#license)
 
 ## Introduction
 
