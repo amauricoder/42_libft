@@ -66,9 +66,4 @@ Additionally:
 
 ## License and glorious advice
 [View License](LICENSE)
-
-I strongly recommend to 42 students who are searching for resources to avoid using CTRL+C CTRL+D, as this is the cornerstone of all upcoming projects. 
-Don't use any code that you can't reconstruct from scratch and/or don't understand. 
-The lack of knowledge will become a significant problem over time. 
-Good luck!
   
