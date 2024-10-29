@@ -64,6 +64,6 @@ Additionally:
 
 - **make bonus**: Incorporates bonus functions into `libft.a`.
 
-## License and glorious advice
+## License
 [View License](LICENSE)
   
